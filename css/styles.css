@@ -91,7 +91,7 @@ h1
 
 .project_inner {
 	position:relative;
-	width:100%;
+	width: 100%;
 }
 
 .project img {
@@ -126,7 +126,7 @@ footer {
 	justify-content: space-around;
 }
 
-@media screen and (max-width: 358px) {
+@media screen and (max-width: 439px) {
 	h1 {
 		font-size: 20px;
 	}
@@ -148,7 +148,7 @@ footer {
 	}
 }
 
-@media screen and (min-width: 359px) {
+@media screen and (min-width: 440px) {
 	.project {
         width: calc((100% - 20px)/2);
 	}
