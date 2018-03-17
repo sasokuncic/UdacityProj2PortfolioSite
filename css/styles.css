@@ -19,11 +19,13 @@ body {
 }
 
 h1,
+h2, h3, h4, h5, h6,
 p {
 	margin: 0; 
 }
 
-h1 {
+h1
+{
 	font-size: 24px;
 	line-height: 48px;
 }
@@ -63,12 +65,12 @@ h1 {
 	font-size: 24px;
 	font-family: Georgia, serif;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 24px;
 }
 
 .header_description {
 	font-size: 16px;
-	line-height: 0;
+	line-height: 16px;
 }
 
 /* ************* BANNER ************* */
@@ -109,6 +111,10 @@ footer {
 	background-color: #bbdefb;
 }
 
+.footer_inner p {
+	padding: 1.5em;
+}
+
 /* ******************************
    RESPONSIVE STYLES
 *********************************  */
@@ -125,9 +131,11 @@ footer {
 		font-size: 20px;
 	}
 
+	/* Hide banner for small devices
 	#banner {
 		display: none;
 	}
+	*/
 
 	.header_title {
 		font-size: 20px;
@@ -138,6 +146,7 @@ footer {
 	p {
 		font-size: 14px;
 	}
+}
 
 @media screen and (min-width: 359px) {
 	.project {
