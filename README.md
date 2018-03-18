@@ -1,5 +1,8 @@
-# UdacityProj2PortfolioSite
+# UdacityProj2Portfolio Github
 udacity Front-End Web Developer Nanodegree, Project 2 (Lesson 18): Personal responsive portfolio site
+
+## UdacityProj2Portfolio Github pages
++ [Sašo Kunčič portfolio site](https://sasokuncic.github.io/UdacityProjAnimalTradingCard/)
 
 ## Project specification
 + [for design, responsivness, separation of concerns and code quality.](https://review.udacity.com/#!/rubrics/45/view)
