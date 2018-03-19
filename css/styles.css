@@ -112,9 +112,10 @@ footer {
 
 .footer_inner {	
 	background-color: #bbdefb;
+	align-content: center;
 }
 
-.footer_inner p {
+.footer_inner a {
 	padding: 1.5em;
 }
 
